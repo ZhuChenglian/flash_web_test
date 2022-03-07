@@ -1,0 +1,152 @@
+{
+  "uid" : "b79375634e9f6f49",
+  "name" : "test_login_success",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_success",
+  "historyId" : "586d0bdeba7311a18258d323abcb9f72",
+  "time" : {
+    "start" : 1646644861859,
+    "stop" : 1646644865624,
+    "duration" : 3765
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "testlogin_init",
+    "time" : {
+      "start" : 1646644831547,
+      "stop" : 1646644834168,
+      "duration" : 2621
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "testlogin_back",
+    "time" : {
+      "start" : 1646644861254,
+      "stop" : 1646644861859,
+      "duration" : 605
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "testlogin_back::0",
+    "time" : {
+      "start" : 1646644865624,
+      "stop" : 1646644865624,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "testlogin_init::0",
+    "time" : {
+      "start" : 1646644865625,
+      "stop" : 1646644865625,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录功能-登录成功用例"
+  }, {
+    "name" : "feature",
+    "value" : "企业版登录页面-测试用户登录功能"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('testlogin_back')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "2144-20210708JN"
+  }, {
+    "name" : "thread",
+    "value" : "209740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c710efd99b91f866",
+        "reportUrl" : "http://localhost:8080/job/FlashWebTest/5/allure/#testresult/c710efd99b91f866",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646643726998,
+          "stop" : 1646643730816,
+          "duration" : 3818
+        }
+      } ]
+    },
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('testlogin_back')" ]
+  },
+  "source" : "b79375634e9f6f49.json",
+  "parameterValues" : [ ]
+}

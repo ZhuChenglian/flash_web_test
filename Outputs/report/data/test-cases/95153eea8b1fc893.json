@@ -1,0 +1,152 @@
+{
+  "uid" : "95153eea8b1fc893",
+  "name" : "test_click_home_6",
+  "fullName" : "TestCases.test_home.TestHome#test_click_home_6",
+  "historyId" : "b141ec87c0b57381d15622ee4cfe01e4",
+  "time" : {
+    "start" : 1646644886370,
+    "stop" : 1646644890870,
+    "duration" : 4500
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "testhome_init",
+    "time" : {
+      "start" : 1646644865627,
+      "stop" : 1646644865935,
+      "duration" : 308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "testhome_back",
+    "time" : {
+      "start" : 1646644886139,
+      "stop" : 1646644886370,
+      "duration" : 231
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "testhome_back::0",
+    "time" : {
+      "start" : 1646644890870,
+      "stop" : 1646644890870,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "testhome_init::0",
+    "time" : {
+      "start" : 1646644905331,
+      "stop" : 1646644905332,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击首页导航栏-教育版文本-用例"
+  }, {
+    "name" : "feature",
+    "value" : "flash官网首页-测试文本链接点击跳转功能"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('testhome_back')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "2144-20210708JN"
+  }, {
+    "name" : "thread",
+    "value" : "209740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b4743062220f8076",
+        "reportUrl" : "http://localhost:8080/job/FlashWebTest/5/allure/#testresult/b4743062220f8076",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646643754329,
+          "stop" : 1646643758828,
+          "duration" : 4499
+        }
+      } ]
+    },
+    "tags" : [ "run(order=2)", "@pytest.mark.usefixtures('testhome_back')" ]
+  },
+  "source" : "95153eea8b1fc893.json",
+  "parameterValues" : [ ]
+}

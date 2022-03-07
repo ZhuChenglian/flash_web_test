@@ -1,0 +1,1223 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "企业版登录页面-测试用户登录功能",
+    "children" : [ {
+      "name" : "登录功能-用户名下方错误提示用例",
+      "children" : [ {
+        "name" : "test_login_fail_invalid_data_user[case0]",
+        "uid" : "5169184e8bec0e6a",
+        "parentUid" : "b991e74e7e1bafc1b484b7c2b09f0939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644834919,
+          "stop" : 1646644839707,
+          "duration" : 4788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'user': '15618275181', 'passwd': '123456', 'check': '用户名不存在或密码不正确'}" ]
+      }, {
+        "name" : "test_login_fail_invalid_data_user[case1]",
+        "uid" : "70fc94227281b5ab",
+        "parentUid" : "b991e74e7e1bafc1b484b7c2b09f0939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644840363,
+          "stop" : 1646644845147,
+          "duration" : 4784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'user': '15618275180', 'passwd': '12345678', 'check': '用户名不存在或密码不正确'}" ]
+      }, {
+        "name" : "test_login_fail_invalid_data_user[case2]",
+        "uid" : "d3bd3599e47910e5",
+        "parentUid" : "b991e74e7e1bafc1b484b7c2b09f0939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644845771,
+          "stop" : 1646644850534,
+          "duration" : 4763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'user': '15618278956', 'passwd': '123456', 'check': '用户名不存在或密码不正确'}" ]
+      }, {
+        "name" : "test_login_fail_invalid_data_user[case3]",
+        "uid" : "5bb6362d02269aa9",
+        "parentUid" : "b991e74e7e1bafc1b484b7c2b09f0939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644851122,
+          "stop" : 1646644855925,
+          "duration" : 4803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'user': '', 'passwd': '123456', 'check': '手机号不能为空'}" ]
+      } ],
+      "uid" : "b991e74e7e1bafc1b484b7c2b09f0939"
+    }, {
+      "name" : "登录功能-密码下方错误提示用例",
+      "children" : [ {
+        "name" : "test_login_fail_invalid_data_pwd[case0]",
+        "uid" : "35b75d49ca7e93c0",
+        "parentUid" : "2af90f18827f4bceeaced6aec90b68b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644856476,
+          "stop" : 1646644861250,
+          "duration" : 4774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'user': '15618275180', 'passwd': '', 'check': '密码不能为空'}" ]
+      } ],
+      "uid" : "2af90f18827f4bceeaced6aec90b68b7"
+    }, {
+      "name" : "登录功能-登录成功用例",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "b79375634e9f6f49",
+        "parentUid" : "05088a202fe25144cc6ffa5dd61f8799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644861859,
+          "stop" : 1646644865624,
+          "duration" : 3765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05088a202fe25144cc6ffa5dd61f8799"
+    } ],
+    "uid" : "fdfe58566b90632ea0deb3d14238c41b"
+  }, {
+    "name" : "flash官网首页-测试文本链接点击跳转功能",
+    "children" : [ {
+      "name" : "点击首页-立即下载按钮-用例",
+      "children" : [ {
+        "name" : "test_click_home_1",
+        "uid" : "c9ebffcb0a4749a4",
+        "parentUid" : "405f26617d45ca316288f49882c7f97a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644866122,
+          "stop" : 1646644869749,
+          "duration" : 3627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "405f26617d45ca316288f49882c7f97a"
+    }, {
+      "name" : "test_click_home_2",
+      "uid" : "ba238b4f072da9b1",
+      "parentUid" : "cfd7bb9c886e8babfefe3ee40e3a8c22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646644869906,
+        "stop" : 1646644873588,
+        "duration" : 3682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "点击企业版授权下载文本链接-用例",
+      "children" : [ {
+        "name" : "test_click_home_3",
+        "uid" : "b843dd2458ba4a2d",
+        "parentUid" : "c04ab8305c8ce7feb2859be6d72ca43c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644873820,
+          "stop" : 1646644877537,
+          "duration" : 3717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c04ab8305c8ce7feb2859be6d72ca43c"
+    }, {
+      "name" : "点击首页导航栏-flash中心文本-用例",
+      "children" : [ {
+        "name" : "test_click_home_4",
+        "uid" : "6841c98ed2fc12cd",
+        "parentUid" : "ce86000b2e28f02c46d732ebdc8b9e39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644877719,
+          "stop" : 1646644881418,
+          "duration" : 3699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce86000b2e28f02c46d732ebdc8b9e39"
+    }, {
+      "name" : "点击首页导航栏-企业版文本-用例",
+      "children" : [ {
+        "name" : "test_click_home_5",
+        "uid" : "71213bc8caa65c59",
+        "parentUid" : "de6dd313e13780ac20cdbdf5fcb515be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644881623,
+          "stop" : 1646644886136,
+          "duration" : 4513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de6dd313e13780ac20cdbdf5fcb515be"
+    }, {
+      "name" : "点击首页导航栏-教育版文本-用例",
+      "children" : [ {
+        "name" : "test_click_home_6",
+        "uid" : "95153eea8b1fc893",
+        "parentUid" : "a6162bfe10950050efe3348bbdb1e780",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644886370,
+          "stop" : 1646644890870,
+          "duration" : 4500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6162bfe10950050efe3348bbdb1e780"
+    }, {
+      "name" : "test_click_home_7",
+      "uid" : "e23069b153471337",
+      "parentUid" : "cfd7bb9c886e8babfefe3ee40e3a8c22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646644891036,
+        "stop" : 1646644896089,
+        "duration" : 5053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "点击首页导航栏-客服支持-用例",
+      "children" : [ {
+        "name" : "test_click_home_8",
+        "uid" : "4bef1c0b9dda1644",
+        "parentUid" : "ee631ae32c41dfacc812cb555241dd7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644896268,
+          "stop" : 1646644900969,
+          "duration" : 4701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee631ae32c41dfacc812cb555241dd7c"
+    }, {
+      "name" : "点击首页导航栏-官方公告-用例",
+      "children" : [ {
+        "name" : "test_click_home_9",
+        "uid" : "6a6fe28ebc68bed9",
+        "parentUid" : "5e29343ffc0d274c984c54fb9f4040d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644901163,
+          "stop" : 1646644905327,
+          "duration" : 4164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e29343ffc0d274c984c54fb9f4040d8"
+    } ],
+    "uid" : "cfd7bb9c886e8babfefe3ee40e3a8c22"
+  }, {
+    "name" : "FP页面-测试按钮和文本点击跳转功能",
+    "children" : [ {
+      "name" : "点击fp页面-fc下载按钮用例",
+      "children" : [ {
+        "name" : "test_click_fp_1",
+        "uid" : "a1777f1f7de57310",
+        "parentUid" : "29c112086530aec8e8dd05350df5abd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644906548,
+          "stop" : 1646644910158,
+          "duration" : 3610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29c112086530aec8e8dd05350df5abd2"
+    }, {
+      "name" : "点击fp页面_ax版本下载最新版用例",
+      "children" : [ {
+        "name" : "test_click_fp_2",
+        "uid" : "a60a5d6d044f8fc7",
+        "parentUid" : "4bed6dd9407d082d8f511165ed2ed385",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644910840,
+          "stop" : 1646644914436,
+          "duration" : 3596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bed6dd9407d082d8f511165ed2ed385"
+    }, {
+      "name" : "点击fp页面_pp版本下载最新版用例",
+      "children" : [ {
+        "name" : "test_click_fp_3",
+        "uid" : "d1c2bb5b7e8dec9b",
+        "parentUid" : "05c8c38927a07222688e9495f7e4b297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644915063,
+          "stop" : 1646644919046,
+          "duration" : 3983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05c8c38927a07222688e9495f7e4b297"
+    }, {
+      "name" : "点击fp页面_np版本下载最新版用例",
+      "children" : [ {
+        "name" : "test_click_fp_4",
+        "uid" : "f38b030a9296b42f",
+        "parentUid" : "bd922515b03bc4fbb920e93789bae15d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644919897,
+          "stop" : 1646644923522,
+          "duration" : 3625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd922515b03bc4fbb920e93789bae15d"
+    }, {
+      "name" : "点击fp页面_MAC pp下载用例",
+      "children" : [ {
+        "name" : "test_click_fp_5",
+        "uid" : "b0564b2d201473fc",
+        "parentUid" : "6c556de34fce6459de2a83a7be33000e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644924511,
+          "stop" : 1646644928142,
+          "duration" : 3631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c556de34fce6459de2a83a7be33000e"
+    }, {
+      "name" : "点击fp页面_MAC np下载用例",
+      "children" : [ {
+        "name" : "test_click_fp_6",
+        "uid" : "8fb8cb8029f3d5d8",
+        "parentUid" : "a6d546836803079c1209018a09174b64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644928796,
+          "stop" : 1646644932660,
+          "duration" : 3864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6d546836803079c1209018a09174b64"
+    }, {
+      "name" : "点击fp页面_咨询客服按钮用例",
+      "children" : [ {
+        "name" : "test_click_fp_7",
+        "uid" : "7facff20daf741bf",
+        "parentUid" : "b48b0b727b72688101a1c67c3536e87b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644933847,
+          "stop" : 1646644937564,
+          "duration" : 3717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b48b0b727b72688101a1c67c3536e87b"
+    } ],
+    "uid" : "032036523558d4d86458d124e9a7019f"
+  }, {
+    "name" : "FC页面-测试按钮和文本点击跳转功能",
+    "children" : [ {
+      "name" : "点击fc页面-上方立即体验按钮用例",
+      "children" : [ {
+        "name" : "test_click_fc_1",
+        "uid" : "8ea9b073ed771ea2",
+        "parentUid" : "0ec395ff6b69ccd1361d4479c39ce5ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644938012,
+          "stop" : 1646644941679,
+          "duration" : 3667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ec395ff6b69ccd1361d4479c39ce5ed"
+    }, {
+      "name" : "点击fc页面-下方立即体验按钮用例",
+      "children" : [ {
+        "name" : "test_click_fc_2",
+        "uid" : "16f032a6d2440a5c",
+        "parentUid" : "30303ae9489d2cb854029f5cb37a8a09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644941960,
+          "stop" : 1646644945572,
+          "duration" : 3612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30303ae9489d2cb854029f5cb37a8a09"
+    } ],
+    "uid" : "9843ce7067462ac90168ccc66231aea7"
+  }, {
+    "name" : "企业版页面-测试按钮和文本点击跳转功能",
+    "children" : [ {
+      "name" : "点击企业版页面-立即咨询按钮用例",
+      "children" : [ {
+        "name" : "test_click_ed_1",
+        "uid" : "87f0d5a6366bf041",
+        "parentUid" : "f65067878f5cb1f09778b16010ff8dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644946932,
+          "stop" : 1646644960599,
+          "duration" : 13667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f65067878f5cb1f09778b16010ff8dcf"
+    }, {
+      "name" : "点击企业版页面-立即购买按钮用例",
+      "children" : [ {
+        "name" : "test_click_ed_2",
+        "uid" : "dde20099beb8150e",
+        "parentUid" : "511cf38cc41c40359a76ff4a64a3fd6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644961311,
+          "stop" : 1646644968781,
+          "duration" : 7470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "511cf38cc41c40359a76ff4a64a3fd6f"
+    } ],
+    "uid" : "4d159fc1eff7aa7a5a3fc853705e7497"
+  }, {
+    "name" : "教育版页面-测试按钮和文本点击跳转功能",
+    "children" : [ {
+      "name" : "点击教育版页面-立即申请按钮用例",
+      "children" : [ {
+        "name" : "test_click_ed_1",
+        "uid" : "97e973b8481f5676",
+        "parentUid" : "42e584bc60018225754ca36cba6ecaff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644970065,
+          "stop" : 1646644984576,
+          "duration" : 14511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42e584bc60018225754ca36cba6ecaff"
+    } ],
+    "uid" : "ecb0b84359331c8ce03700cf669c69bd"
+  }, {
+    "name" : "帮助中心页面-测试文本链接点击跳转功能",
+    "children" : [ {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=16用例",
+      "children" : [ {
+        "name" : "test_click_hp_1",
+        "uid" : "24061c9d49b784b5",
+        "parentUid" : "7fa13f996f479d227ab3b9cb9017aa91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644987295,
+          "stop" : 1646644990909,
+          "duration" : 3614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_click_hp_1",
+        "uid" : "ec35018bfcd0dc58",
+        "parentUid" : "7fa13f996f479d227ab3b9cb9017aa91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645028082,
+          "stop" : 1646645057426,
+          "duration" : 29344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_click_hp_1",
+        "uid" : "933001bef34d4ba6",
+        "parentUid" : "7fa13f996f479d227ab3b9cb9017aa91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645114354,
+          "stop" : 1646645144073,
+          "duration" : 29719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_click_hp_1",
+        "uid" : "e9f212ead9eadab5",
+        "parentUid" : "7fa13f996f479d227ab3b9cb9017aa91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645146724,
+          "stop" : 1646645183563,
+          "duration" : 36839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fa13f996f479d227ab3b9cb9017aa91"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=62用例",
+      "children" : [ {
+        "name" : "test_click_hp_2",
+        "uid" : "e1638789b48920ab",
+        "parentUid" : "aad24d189a2c3e9feb9de6c463f462c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644992247,
+          "stop" : 1646644995909,
+          "duration" : 3662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aad24d189a2c3e9feb9de6c463f462c7"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=63用例",
+      "children" : [ {
+        "name" : "test_click_hp_3",
+        "uid" : "da2ce37eacb78b9f",
+        "parentUid" : "875789e46f387e0c7d3b98e27ef9ea5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646644997124,
+          "stop" : 1646645000824,
+          "duration" : 3700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "875789e46f387e0c7d3b98e27ef9ea5c"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=64用例",
+      "children" : [ {
+        "name" : "test_click_hp_4",
+        "uid" : "1ff7409c1a54ff09",
+        "parentUid" : "06c82b5d17f5ef15ac49e288c4d549d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645002120,
+          "stop" : 1646645005814,
+          "duration" : 3694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06c82b5d17f5ef15ac49e288c4d549d3"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=68用例",
+      "children" : [ {
+        "name" : "test_click_hp_5",
+        "uid" : "ab1b42a937beaff4",
+        "parentUid" : "ecae28201ba75d0bfcc59b429111e75b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645007073,
+          "stop" : 1646645010799,
+          "duration" : 3726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecae28201ba75d0bfcc59b429111e75b"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=111用例",
+      "children" : [ {
+        "name" : "test_click_hp_6",
+        "uid" : "b306c41949feaab8",
+        "parentUid" : "aa53e71c6a7776cc6705c3fb209b3aac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645012008,
+          "stop" : 1646645015759,
+          "duration" : 3751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa53e71c6a7776cc6705c3fb209b3aac"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=112用例",
+      "children" : [ {
+        "name" : "test_click_hp_7",
+        "uid" : "125f0e52bdd571e6",
+        "parentUid" : "a8931e7f6913c34979bdb74c4ecdbb00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645016975,
+          "stop" : 1646645020710,
+          "duration" : 3735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8931e7f6913c34979bdb74c4ecdbb00"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章-id=113用例",
+      "children" : [ {
+        "name" : "test_click_hp_8",
+        "uid" : "d5dcb074d804c559",
+        "parentUid" : "81a13daa0d29c1d143b63bba136c32f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645021999,
+          "stop" : 1646645025740,
+          "duration" : 3741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81a13daa0d29c1d143b63bba136c32f6"
+    }, {
+      "name" : "点击帮助中心页面-安装与更新问题-文章用例",
+      "children" : [ {
+        "name" : "test_click_hp_1",
+        "uid" : "df64da2e4f87c566",
+        "parentUid" : "8fb77a23d6bb1d625be9754158c383e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645059944,
+          "stop" : 1646645111735,
+          "duration" : 51791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_click_hp_1",
+        "uid" : "6200d1746c409f2c",
+        "parentUid" : "8fb77a23d6bb1d625be9754158c383e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645185993,
+          "stop" : 1646645215567,
+          "duration" : 29574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8fb77a23d6bb1d625be9754158c383e8"
+    } ],
+    "uid" : "f913e959f7f3607eadb23160b9516480"
+  }, {
+    "name" : "客服支持页面-测试文本链接点击跳转功能",
+    "children" : [ {
+      "name" : "点击客服支持页面-客服支持按钮用例",
+      "children" : [ {
+        "name" : "test_click_cs_1",
+        "uid" : "a703250abe82bb20",
+        "parentUid" : "b5fa6ae53cc461e224b0c5d060389a67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645216933,
+          "stop" : 1646645257523,
+          "duration" : 40590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5fa6ae53cc461e224b0c5d060389a67"
+    }, {
+      "name" : "点击客服支持页面-文章-id=16用例",
+      "children" : [ {
+        "name" : "test_click_cs_2",
+        "uid" : "a9cece0b939cc44c",
+        "parentUid" : "88e3ac6106974f16474ae3c1cb257694",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645258131,
+          "stop" : 1646645261851,
+          "duration" : 3720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88e3ac6106974f16474ae3c1cb257694"
+    }, {
+      "name" : "点击客服支持页面-文章-id=55用例",
+      "children" : [ {
+        "name" : "test_click_cs_3",
+        "uid" : "7547f2f5493cb0fa",
+        "parentUid" : "7b5eb585756a60be4fa1b7c1db48ccb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645262519,
+          "stop" : 1646645266167,
+          "duration" : 3648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b5eb585756a60be4fa1b7c1db48ccb0"
+    }, {
+      "name" : "点击客服支持页面-文章-id=62用例",
+      "children" : [ {
+        "name" : "test_click_cs_4",
+        "uid" : "715fab1f68432d6c",
+        "parentUid" : "33ba26826f698427480f82e4904e5dd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645266732,
+          "stop" : 1646645270462,
+          "duration" : 3730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33ba26826f698427480f82e4904e5dd2"
+    }, {
+      "name" : "点击客服支持页面-文章-id=63用例",
+      "children" : [ {
+        "name" : "test_click_cs_5",
+        "uid" : "459d89c4150b111c",
+        "parentUid" : "03d1d115b849b5daa6ec612ae073b86f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645271057,
+          "stop" : 1646645274788,
+          "duration" : 3731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03d1d115b849b5daa6ec612ae073b86f"
+    }, {
+      "name" : "点击客服支持页面-文章-id=64用例",
+      "children" : [ {
+        "name" : "test_click_cs_6",
+        "uid" : "50b793b197f87e6",
+        "parentUid" : "fd30fea86ce7af99065db9ced0d82de8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645275445,
+          "stop" : 1646645279186,
+          "duration" : 3741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd30fea86ce7af99065db9ced0d82de8"
+    }, {
+      "name" : "点击客服支持页面-文章-id=67用例",
+      "children" : [ {
+        "name" : "test_click_cs_7",
+        "uid" : "67a57906587b0c70",
+        "parentUid" : "9dac810c921aef528438545d816ac5ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645279856,
+          "stop" : 1646645283552,
+          "duration" : 3696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9dac810c921aef528438545d816ac5ea"
+    } ],
+    "uid" : "ac29663e01fc48ea8895a68e358f8f38"
+  }, {
+    "name" : "官方公告页面-测试文本链接点击跳转功能",
+    "children" : [ {
+      "name" : "点击官方公告页面-文章-id=178用例",
+      "children" : [ {
+        "name" : "test_click_nt_1",
+        "uid" : "92dee9f86113e52a",
+        "parentUid" : "dcd073a75f76572bc3c7858c85c65aea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645284938,
+          "stop" : 1646645288676,
+          "duration" : 3738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcd073a75f76572bc3c7858c85c65aea"
+    }, {
+      "name" : "点击官方公告页面-文章-id=177用例",
+      "children" : [ {
+        "name" : "test_click_nt_2",
+        "uid" : "1d3077b5085c0273",
+        "parentUid" : "64e6a4c67d693be0c668179f783721b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645289425,
+          "stop" : 1646645293124,
+          "duration" : 3699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64e6a4c67d693be0c668179f783721b4"
+    }, {
+      "name" : "点击官方公告页面-文章-id=173用例",
+      "children" : [ {
+        "name" : "test_click_nt_3",
+        "uid" : "bb11174229ce4df5",
+        "parentUid" : "9686c7b4f820e198b37d6dc90549e804",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645293840,
+          "stop" : 1646645297547,
+          "duration" : 3707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9686c7b4f820e198b37d6dc90549e804"
+    }, {
+      "name" : "点击官方公告页面-文章-id=170用例",
+      "children" : [ {
+        "name" : "test_click_nt_4",
+        "uid" : "4c513b3981d7c32",
+        "parentUid" : "b90d6c0bfcafbca69fcc9f68dd4cd029",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645298526,
+          "stop" : 1646645302226,
+          "duration" : 3700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b90d6c0bfcafbca69fcc9f68dd4cd029"
+    }, {
+      "name" : "点击官方公告页面-文章-id=157用例",
+      "children" : [ {
+        "name" : "test_click_nt_5",
+        "uid" : "599a69092e8d6149",
+        "parentUid" : "f546ea0e1a3b977defde6aa90ecc8212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645303219,
+          "stop" : 1646645306952,
+          "duration" : 3733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f546ea0e1a3b977defde6aa90ecc8212"
+    }, {
+      "name" : "点击官方公告页面-文章-id=154用例",
+      "children" : [ {
+        "name" : "test_click_nt_6",
+        "uid" : "6ffe2af806ad2c73",
+        "parentUid" : "499c38fc819a231048f8e528978aba44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645307529,
+          "stop" : 1646645311269,
+          "duration" : 3740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "499c38fc819a231048f8e528978aba44"
+    }, {
+      "name" : "点击官方公告页面-文章-id=153用例",
+      "children" : [ {
+        "name" : "test_click_nt_7",
+        "uid" : "459c01e4df766cbc",
+        "parentUid" : "ff46468c1d8726f69167995f4e58c480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645311837,
+          "stop" : 1646645315552,
+          "duration" : 3715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff46468c1d8726f69167995f4e58c480"
+    }, {
+      "name" : "点击官方公告页面-文章-id=144用例",
+      "children" : [ {
+        "name" : "test_click_nt_8",
+        "uid" : "c76dd59613e83cb8",
+        "parentUid" : "150f564a75939e24716bed3e017277a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645316161,
+          "stop" : 1646645319853,
+          "duration" : 3692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "150f564a75939e24716bed3e017277a4"
+    }, {
+      "name" : "点击官方公告页面-文章-id=143用例",
+      "children" : [ {
+        "name" : "test_click_nt_9",
+        "uid" : "c5d4b9880b981d13",
+        "parentUid" : "b9821e2fc0367477ab8078b1674bedd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645320528,
+          "stop" : 1646645324247,
+          "duration" : 3719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9821e2fc0367477ab8078b1674bedd7"
+    }, {
+      "name" : "点击官方公告页面-文章-id=140用例",
+      "children" : [ {
+        "name" : "test_click_nt_10",
+        "uid" : "aa860e93e2e0192",
+        "parentUid" : "9695d4f0cf7fe2e4b78283de996d0be3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645324789,
+          "stop" : 1646645328467,
+          "duration" : 3678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9695d4f0cf7fe2e4b78283de996d0be3"
+    }, {
+      "name" : "点击官方公告页面-文章-id=138用例",
+      "children" : [ {
+        "name" : "test_click_nt_11",
+        "uid" : "3bfc252779266181",
+        "parentUid" : "13e26ba5769b00a6030d01a69b400c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646645329093,
+          "stop" : 1646645332815,
+          "duration" : 3722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13e26ba5769b00a6030d01a69b400c1d"
+    } ],
+    "uid" : "29b3a61c79efd1104b00e5e33c46f1fe"
+  } ]
+}

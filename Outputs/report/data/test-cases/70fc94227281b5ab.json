@@ -1,0 +1,155 @@
+{
+  "uid" : "70fc94227281b5ab",
+  "name" : "test_login_fail_invalid_data_user[case1]",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_fail_invalid_data_user",
+  "historyId" : "02f38ff918e61afae4a3b8441ba6a677",
+  "time" : {
+    "start" : 1646644840363,
+    "stop" : 1646644845147,
+    "duration" : 4784
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "testlogin_init",
+    "time" : {
+      "start" : 1646644831547,
+      "stop" : 1646644834168,
+      "duration" : 2621
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "testlogin_back",
+    "time" : {
+      "start" : 1646644839711,
+      "stop" : 1646644840362,
+      "duration" : 651
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "testlogin_back::0",
+    "time" : {
+      "start" : 1646644845149,
+      "stop" : 1646644845149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "testlogin_init::0",
+    "time" : {
+      "start" : 1646644865625,
+      "stop" : 1646644865625,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业版登录页面-测试用户登录功能"
+  }, {
+    "name" : "story",
+    "value" : "登录功能-用户名下方错误提示用例"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('testlogin_back')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "2144-20210708JN"
+  }, {
+    "name" : "thread",
+    "value" : "209740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'user': '15618275180', 'passwd': '12345678', 'check': '用户名不存在或密码不正确'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d58245183a64fbc9",
+        "reportUrl" : "http://localhost:8080/job/FlashWebTest/5/allure/#testresult/d58245183a64fbc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646643705180,
+          "stop" : 1646643709978,
+          "duration" : 4798
+        }
+      } ]
+    },
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('testlogin_back')" ]
+  },
+  "source" : "70fc94227281b5ab.json",
+  "parameterValues" : [ "{'user': '15618275180', 'passwd': '12345678', 'check': '用户名不存在或密码不正确'}" ]
+}
